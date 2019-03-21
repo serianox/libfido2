@@ -1,4 +1,4 @@
-libfido2 (1.1.0) bionic; urgency=low
+libfido2 (1.1.0) xenial; urgency=low
 
   * MacOS: fix IOKit crash on HID read.
   * Windows: fix contents of release file.
@@ -8,7 +8,7 @@ libfido2 (1.1.0) bionic; urgency=low
 
  -- pedro martelletto <pedro@yubico.com>  Tue, 07 May 2019 08:03:21 +0000
 
-libfido2 (1.0.0) bionic; urgency=low
+libfido2 (1.0.0) xenial; urgency=low
 
   * Native HID support on Linux, MacOS, and Windows.
   * fido2-{assert,cred}: new -u option to force U2F on dual authenticators.
@@ -19,7 +19,7 @@ libfido2 (1.0.0) bionic; urgency=low
 
  -- pedro martelletto <pedro@yubico.com>  Tue, 19 Mar 2019 07:38:36 +0000
 
-libfido2 (0.4.0) bionic; urgency=low
+libfido2 (0.4.0) xenial; urgency=low
 
   * fido2-assert: print the user id for resident credentials.
   * Fix encoding of COSE algorithms when making a credential.
@@ -28,7 +28,7 @@ libfido2 (0.4.0) bionic; urgency=low
 
  -- pedro martelletto <pedro@yubico.com>  Mon, 07 Jan 2019 08:22:01 +0000
 
-libfido2 (0.3.0) bionic; urgency=low
+libfido2 (0.3.0) xenial; urgency=low
 
   * Various reliability fixes.
   * Merged fuzzing instrumentation.
@@ -45,21 +45,21 @@ libfido2 (0.3.0) bionic; urgency=low
 
  -- pedro martelletto <pedro@yubico.com>  Tue, 11 Sep 2018 09:05:32 +0000
 
-libfido2 (0.2.0) bionic; urgency=low
+libfido2 (0.2.0) xenial; urgency=low
 
   * Added command-line tools.
   * Added a couple of missing get functions.
 
  -- pedro martelletto <pedro@yubico.com>  Mon, 18 Jun 2018 10:44:11 +0000
 
-libfido2 (0.1.1~dev) bionic; urgency=low
+libfido2 (0.1.1~dev) xenial; urgency=low
 
   * Added documentation.
   * Minor fixes.
 
  -- pedro martelletto <pedro@yubico.com>  Wed, 30 May 2018 13:16:28 +0000
 
-libfido2 (0.1.0~dev) bionic; urgency=low
+libfido2 (0.1.0~dev) xenial; urgency=low
 
   * Initial release.
 
