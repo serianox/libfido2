@@ -92,7 +92,7 @@ Win32, and Win64 artefacts.
 
 === Building from source
 
-On UNIX-like systems:
+==== On UNIX-like systems
 
   $ cmake -B build
   $ make -C build
@@ -103,6 +103,17 @@ https://www.freedesktop.org/wiki/Software/pkg-config/[pkg-config] may need to
 be installed, or the PKG_CONFIG_PATH environment variable set. For complete,
 OS-specific build instructions, please refer to the `.actions/`
 (Linux, macOS, BSD) and `windows/` directories.
+
+==== Windows (Visual Studio)
+
+Install the following manual dependencies
+
+* https://gnupg.org[GnuPG]
+* https://www.7-zip.org[7-Zip]
+* https://git-scm.com[Git]
+* https://visualstudio.microsoft.com[Visual Studio]
+
+Start a _Developer PowerShell for Visual Studio 20xx_, and then run `windows/build.ps1`.
 
 === Build-time Customisation
 
